@@ -295,7 +295,7 @@ new Swiper('.slider-wrapper', {
 		}()),
 	},
 	*/
-	/*
+	
 	// Доступность
 	a11y: {
 		// Включить/выключить
@@ -312,7 +312,7 @@ new Swiper('.slider-wrapper', {
 		itemRoleDescriptionMessage: '',
 		// и т.д.
 	},
-	*/
+	
 	/*
 	// События
 	on: {
