@@ -11,9 +11,12 @@ body {
     position: relative;
 }
 .side {
-    min-width: 235px;
+    min-width: 240px;
     padding: 50px 0;
 
+    @include desktop {
+        min-width: 300px;
+    }
     @include mobile {
         min-width: 50px;
         padding: 50px 0 0 0;
@@ -74,6 +77,10 @@ body {
     @include adaptiv-value("padding-right", 50, 30, 0);
     width: 100%;
     height: 50px;
+
+    @include desktop {
+        padding: 0 70px;
+    }
     @include mobile {
         padding: 0 15px;
         flex: 1 1 auto;
