@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <title>Admin Panel</title>
+</head>
+<body>
+<div class="circular">
+    <div class="inner"></div>
+    <div class="num" id="run">0%</div>
+    <div class="circle">
+        <div class="bar left">
+            <div class="progress"></div>
+        </div>
+        <div class="bar right">
+            <div class="progress"></div>
+        </div>
+    </div>
+</div>
+
+  
+<script>
+    // Progress bar 
+const num = document.querySelector('.num');
+let counter = 0;
+setInterval (() => {
+    if(counter == 100) {
+        clearInterval();
+    } else {
+        counter+=1;
+        num.textContent = counter + "%";
+    }
+}, 20);
+</script>
+ <script src="source/script.js"></script>   
+</body>
+</html>
