@@ -495,36 +495,3 @@ setInterval(() => {
     
 }, 8);
 
-
-// const bar1 = document.getElementById('bar1');
-// const bar2 = document.getElementById('bar2');
-// const bar3 = document.getElementById('bar3');
-// const bar4 = document.getElementById('bar4');
-
-// function progressBar(target, value = 0) {
-//   const progress = document.createElement("progress");
-//   progress.max = 100;
-//   progress.value = 0;
-//   target.appendChild(progress)
-//   return [
-//     () => value,
-//     (add) => {
-//       value += add;
-//       if (value >= 100) {
-//         progress.value = 100;
-//         return;
-//       }
-//       progress.value = value;
-//     },
-//   ];
-// }
-
-// const [progress1, addProgress1] = progressBar(bar1);
-// const [progress2, addProgress2] = progressBar(bar2);
-// const [progress3, addProgress3] = progressBar(bar3);
-// const [progress4, addProgress4] = progressBar(bar4);
-
-// setInterval(() => addProgress1(Math.ceil(Math.random() * 10)), 100)
-// setInterval(() => addProgress2(Math.ceil(Math.random() * 10)), 200)
-// setInterval(() => addProgress3(Math.ceil(Math.random() * 10)), 150)
-// setInterval(() => addProgress4(Math.ceil(Math.random() * 10)), 50)

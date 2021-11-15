@@ -457,6 +457,7 @@ body {
           justify-content: center;
   background-color: #fff;
   padding: 11px;
+  height: 60px;
 }
 @media (min-width: 1440px) {
   .announce {
@@ -477,6 +478,7 @@ body {
   line-height: 19px;
   color: #3A3636;
   margin-left: 5px;
+  text-align: center;
 }
 
 .announce__icon {
@@ -615,8 +617,8 @@ body {
   width: 100%;
   background-color: #fff;
   border-radius: 20px;
-  padding-top: calc(20px + 40 * ((100vw - 320px) / 1120));
-  padding-bottom: calc(20px + 40 * ((100vw - 320px) / 1120));
+  padding-top: calc(20px + 20 * ((100vw - 320px) / 1120));
+  padding-bottom: calc(20px + 20 * ((100vw - 320px) / 1120));
 }
 @media (max-width: 1060px) {
   .progress {

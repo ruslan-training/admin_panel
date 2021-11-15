@@ -307,6 +307,7 @@ body {
     justify-content: center;
     background-color: #fff;
     padding: 11px;
+    height: 60px;
 
     @media (min-width:1440px){
         padding: 20px 5px;
@@ -321,6 +322,7 @@ body {
     line-height: 19px;
     color: #3A3636;
     margin-left: 5px;
+    text-align: center;
 }
 .announce__icon {
     max-width: 14px;
@@ -419,8 +421,8 @@ body {
     width: 100%;
     background-color: #fff;
     border-radius: 20px;
-    @include adaptiv-value("padding-top", 60, 20, 0);
-    @include adaptiv-value("padding-bottom", 60, 20, 0);
+    @include adaptiv-value("padding-top", 40, 20, 0);
+    @include adaptiv-value("padding-bottom", 40, 20, 0);
 
     @media (max-width:1060px) {
         flex: 1 1 100%;
